@@ -1,0 +1,18 @@
+.skill{
+    margin: 10px;
+}
+.skill-icon {
+    width: 50px;
+    height: 50px;
+  }
+.img-name-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.img-name-container span {
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    letter-spacing: 0.0075em;
+}
