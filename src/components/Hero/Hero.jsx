@@ -4,6 +4,7 @@ import texts from '../../resources/texts.js';
 
 function Hero(props) {
     return (
+        
         <section className='hero-container'>
             <div className='hero-content'>
                 <h2>{texts.heroSection.greeting}</h2>
