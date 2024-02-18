@@ -26,7 +26,26 @@ const texts = {
     },
     sectionTitle: {
         skills: "Compétences ",
-    }
+        projects: "Projets "
+    },
+    projects : [
+
+        {
+          title: 'Application mobile de livraison de marchandises',
+          description: ' Développement d\'une application  pour chauffeurs, planificateurs et clients, intégrant authentification, sélection de produits, et suivi de missions avec OpenStreetMap.',
+          image: '/assets/images/ProjetAndroid/accueil.png',
+          technologies: ['Java', 'MVP', 'NoSQL', 'OpenStreetMap'],
+          github: 'https://github.com/AntoniaHounsa/Livraison-Android-'
+        },
+        {
+            title: 'Portfolio web',
+            description: 'Mon portfolio web est une passerelle  présentant mon éventail de compétences, mettant en lumière mes projets personnels  avec des descriptions détaillées et un accès direct aux codes sources.',
+            image: '/assets/images/portfolioImages/accueil.png',
+            technologies: ['React', 'HTML', 'CSS', 'JavaScript', 'NodesJs'],
+            github: 'https://github.com/AntoniaHounsa/portfolio'
+        }
+
+      ],
 
 };
 

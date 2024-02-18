@@ -2,7 +2,7 @@ import React from 'react';
 import './Skills.css'
 import texts from '../../resources/texts.js'
 import SkillCard from './SkillCard/SkillCard.jsx';
-import { Grid, Item } from '@mui/material';
+import { Grid } from '@mui/material';
 import SectionTitle from '../SectionTitle/SectionTitle.jsx';
 
 function Skills({skills}) {
