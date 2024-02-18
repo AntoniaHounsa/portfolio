@@ -90,7 +90,7 @@
 .contact-list li{
     display: flex;
     align-items: center;
-    width: 65%;
+    
 }
 .contacts {
     margin: 10px;
