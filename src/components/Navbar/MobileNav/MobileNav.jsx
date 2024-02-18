@@ -10,16 +10,16 @@ function MobileNav({isOpen, toggleMenu}) {
                     <div className='mobile-menu-container'>
                         <ul>
                             <li>
-                                <a className='menu-item'>Home</a>
+                                <a className='menu-item' >Home</a>
                             </li>
                             <li>
-                                <a className='menu-item'>Skills</a>
+                                <a className='menu-item' href='#skills'>Compétences</a>
                             </li>
                             <li>
-                                <a className='menu-item'>Work Experience</a>
+                                <a className='menu-item' href='#projects' >Projets </a>
                             </li>
                             <li>
-                                <a className='menu-item'>Contact Me</a>
+                                <a className='menu-item' href='#certifications'>Certifications</a>
                             </li>
                     </ul>
                     </div>

@@ -1,4 +1,5 @@
 // texts.js
+
 const texts = {
     heroSection: {
         greeting: "Bonjour, Je suis Antonia HOUNSA",
@@ -26,7 +27,8 @@ const texts = {
     },
     sectionTitle: {
         skills: "Compétences ",
-        projects: "Projets "
+        projects: "Projets ",
+        certifications: "Certifications "
     },
     projects : [
 
@@ -46,6 +48,28 @@ const texts = {
         }
 
       ],
+    certifications : [
+        {
+            title: 'Certificat de complétion de cours de React.js',
+            image: '/assets/images/certifications/react.png',
+            link: 'https://www.linkedin.com/learning/certificates/38e0cd1f2f86995ea0617a787f9addce721b45486ee09be129536522d0064d39'
+        },
+        {
+            title: 'Microsoft Certified: Azure Fundamentals',
+            image: '/assets/images/certifications/az900.png',
+            link: 'https://www.credly.com/badges/15366f23-e7eb-4a50-a182-dba5c7708b35/public_url'
+        },
+    ],
+    contact: [
+        {
+            icon: "EmailIcon",
+            content: "antonia.hounsa@groupe-esigelec.org"
+        },
+        {
+            icon: "PhoneIcon",
+            content: "07 53 00 77 82"
+        }
+    ]
 
 };
 

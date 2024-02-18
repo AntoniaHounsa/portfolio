@@ -13,7 +13,7 @@ function ProjectCard({ project }) {
             <li key={tech} className="project-tech-item">{tech}</li>
           ))}
         </ul>
-        <a href="https://github.com/AntoniaHounsa/portfolio"
+        <a href={project.github}
             className="github-button"
             style={{textDecoration: 'none'}}
             target="_blank">

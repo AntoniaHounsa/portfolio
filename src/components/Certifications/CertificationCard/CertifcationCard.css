@@ -20,40 +20,27 @@
   .project-info {
     padding: 16px;
   }
-  
+
   .project-title {
     margin: 0;
     color: #fff;
   }
-  
-  .project-description {
-    color: #666;
-  }
-  
-  .project-tech-list {
-    list-style-type: none;
-    padding: 0;
-  }
 
-  .project-tech-item {
-    display: inline-block;
-    background-color:#6852ba;
-    border-radius: 4px;
-    padding: 4px 8px;
-    margin-right: 4px;
-    margin-top: 4px;
-    font-size: 0.8em;
-  }
 
 
   .github-button {
+    width: 100%;
+    color: #6852ba;
+    margin: 1rem 0rem;
+  }
+  .github-button {
     display: inline-block;
     width: 100%;
-    color: #ffff;
+    color: #6852ba;
     margin: 1rem 0rem;
     padding: 0.5rem 1rem;
     text-align: center;
-    background-color: #6852ba;
+    background-color: #f0f0f0;
     border: 1px solid #cccccc;
     border-radius: 4px;
     cursor: pointer;

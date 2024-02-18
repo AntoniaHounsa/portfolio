@@ -7,8 +7,8 @@ import { Grid } from '@mui/material';
 
 function Projects({projects}) {
     return (
-        <section>
-            <SectionTitle sectionName={texts.sectionTitle.projects}/>
+        <section id='projects'>
+            <SectionTitle sectionName={texts.sectionTitle.projects} />
             <Grid container spacing={0} style={{padding:'20px'}}>
                 {projects && projects.map((project) => (
                     <Grid item xs={12} md={6} lg={6} >

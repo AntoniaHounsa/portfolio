@@ -6,6 +6,7 @@ import Skills from "./components/Skills/Skills";
 import texts from "./resources/texts";
 import Footer from "./components/Footer/Footer";
 import Projects from "./components/Projects/Projects";
+import Certifications from "./components/Certifications/Certifications";
 function App() {
   return (
    <>
@@ -16,6 +17,7 @@ function App() {
 
     <Skills skills={texts.skillsSection}/>
     <Projects projects={texts.projects}/>
+    <Certifications certifications={texts.certifications} />
     <Footer/>
    </>
   );

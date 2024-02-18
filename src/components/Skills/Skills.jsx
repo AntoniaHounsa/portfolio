@@ -7,7 +7,7 @@ import SectionTitle from '../SectionTitle/SectionTitle.jsx';
 
 function Skills({skills}) {
     return (
-        <section className='skills-container'>
+        <section className='skills-container' id='skills'>
             <SectionTitle  sectionName= {texts.sectionTitle.skills}/>
             <h2>{texts.skillsSection.titleTechnologies}</h2>
             <Grid container spacing={2} className='skills-list-container'>

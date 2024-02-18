@@ -83,7 +83,27 @@
 .tech-icon img:hover {
     transform: translateY(-0.5rem);
 }
-
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+  }
+.contact-list li{
+    display: flex;
+    align-items: center;
+    width: 65%;
+}
+.contacts {
+    margin: 10px;
+}
+  .contact-item {
+    display: inline-block;
+    background-color:#6852ba;
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin-right: 4px;
+    margin-top: 4px;
+    font-size: 0.8em;
+  }
 @media (max-width: 1025px){
     .hero-content h2{
         font-size: 3rem;
