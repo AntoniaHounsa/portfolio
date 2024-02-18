@@ -7,6 +7,9 @@ import texts from "./resources/texts";
 import Footer from "./components/Footer/Footer";
 import Projects from "./components/Projects/Projects";
 import Certifications from "./components/Certifications/Certifications";
+import { inject } from "@vercel/analytics/*";
+
+inject()
 function App() {
   return (
    <>
