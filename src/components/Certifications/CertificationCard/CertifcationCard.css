@@ -36,11 +36,11 @@
   .github-button {
     display: inline-block;
     width: 100%;
-    color: #6852ba;
+    color: #fff;
     margin: 1rem 0rem;
     padding: 0.5rem 1rem;
     text-align: center;
-    background-color: #f0f0f0;
+    background-color:  #6852ba;
     border: 1px solid #cccccc;
     border-radius: 4px;
     cursor: pointer;
